@@ -10,14 +10,7 @@ DEBUG = False
 
 DEV = False
 
-ALLOWED_HOSTS = [
-    'alb-ecs-1086934583.ap-south-1.elb.amazonaws.com',
-    '127.0.0.1',
-    'a668d569c9d4146f99fb09a807b65c90-472058561.ap-south-1.elb.amazonaws.com',
-    '65.2.176.145',
-    '52.66.37.28',
-    'itntdev.anandtechverce.com'
-]
+ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = [
     'http://alb-ecs-1086934583.ap-south-1.elb.amazonaws.com',
