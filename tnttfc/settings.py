@@ -11,7 +11,7 @@ DEBUG = False
 DEV = False
 
 ALLOWED_HOSTS = [
-    'itnthub.tn.gov.in',
+    'alb-ecs-1086934583.ap-south-1.elb.amazonaws.com',
     '127.0.0.1',
     'a668d569c9d4146f99fb09a807b65c90-472058561.ap-south-1.elb.amazonaws.com',
     '65.2.176.145',
@@ -20,7 +20,7 @@ ALLOWED_HOSTS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://itnthub.tn.gov.in',
+    'http://alb-ecs-1086934583.ap-south-1.elb.amazonaws.com',
     'http://a668d569c9d4146f99fb09a807b65c90-472058561.ap-south-1.elb.amazonaws.com',
     'http://127.0.0.1',
     'http://65.2.176.145:8000',
@@ -29,7 +29,7 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://newsub.itnthub.tn.gov.in',
+    'http://alb-ecs-1086934583.ap-south-1.elb.amazonaws.com',
     'https://itnthub.tn.gov.in',
     'https://www.itnthub.tn.gov.in',
     'http://127.0.0.1:8000',
