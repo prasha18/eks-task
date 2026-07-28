@@ -15,7 +15,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'a668d569c9d4146f99fb09a807b65c90-472058561.ap-south-1.elb.amazonaws.com',
     '65.2.176.145',
-    '52.66.37.228',
+    '52.66.37.28',
     'itntdev.anandtechverce.com'
 ]
 
